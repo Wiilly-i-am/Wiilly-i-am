@@ -10,9 +10,6 @@ const typingTexts = [
     "I like to say I'm the God of stacks...",
     "But really I just run the stack.",
     "Building cybersecurity tools.",
-    "Creating gaming utilities.",
-    "Always chillin in the Pacific.",
-    "Welcome to my digital realm."
 ];
 
 // DOM Content Loaded
