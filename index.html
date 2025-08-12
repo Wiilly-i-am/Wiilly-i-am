@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wiilly-i-am - God of Stacks. Developer passionate about cybersecurity, gaming tools, and system utilities.">
+    <meta name="keywords" content="developer, programmer, cybersecurity, gaming tools, R6 Siege, PowerShell, GitHub">
+    <meta name="author" content="Wiilly-i-am">
+    <meta property="og:title" content="Wiilly-i-am - Developer Portfolio">
+    <meta property="og:description" content="I like to say im the God of stacks, but realy i just run the stack.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/95966242?v=4">
+    
+    <title>Wiilly-i-am - Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Initializing...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets\profile.jpg" alt="Wiilly-i-am" class="nav-avatar">
+                <span class="nav-name">Wiilly-i-am</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets\profile.jpg" alt="Wiilly-i-am" class="profile-image">
+
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Wiilly-i-am</span>
+                        <span class="hero-subtitle">willy null</span>
+                    </h1>
+                    <div class="hero-description">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor"></span>
+                    </div>
+
+                    <div class="hero-buttons-container">
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                <i class="fas fa-code"></i>
+                                View Projects
+                            </a>
+                            <a href="https://github.com/Wiilly-i-am" target="_blank" class="btn btn-secondary">
+                                <i class="fab fa-github"></i>
+                                GitHub Profile
+                            </a>
+                        </div>
+                        
+                        <div class="hero-links">
+                            <button class="hero-link" onclick="window.open('https://willynet.io', '_blank')">
+                                <i class="fas fa-globe"></i>
+                                WillyNet
+                            </button>
+                            <button class="hero-link" onclick="window.open('https://daemonsec.io', '_blank')">
+                                <i class="fas fa-shield-alt"></i>
+                                DaemonSec
+                            </button>
+                            <button class="hero-link" onclick="window.open('https://r6hub.io', '_blank')">
+                                <i class="fas fa-gamepad"></i>
+                                R6Hub
+                            </button>
+                            <button class="hero-link" onclick="window.open('https://offensivesec.io', '_blank')">
+                                <i class="fas fa-skull-crossbones"></i>
+                                OffensiveSec
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know the developer behind the code</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-title">Wiilly-i-am</h3>
+                    <p class="about-description">
+                        Hi, I'm Wiilly-i-am. I break things, I build things, I automate what I can, and I like to get a understanding of how things actually work behind the scenes.
+                    </p>
+                    <p class="about-description">
+                        You can normally find me tinkering with cybersecurity tools, hacking hardware, reverse engineering something arbitrary, or scripting something to make life easier. I like to break things, poke networks, and push technology to its breaking point—whether it's code, electronics, or infrastructure.
+                    </p>
+                    <p class="about-description">
+                        I have a special interest in offensive security—red teaming, exploit dev, adversarial research, and all the other things that go into stress-testing systems and keeping defenders on their toes.
+                    </p>
+                    <p class="about-description">
+                        My repositories are a combination of open-source utilities, experiments, and things I figured would be handy (or simply entertaining). I work in Python, Bash, PowerShell, C++, and JavaScript a lot, but really, I'll use whatever gets the job done.
+                    </p>
+                    <p class="about-description">
+                        If you're interested in hacking, automation, hardware, networks, offensive security, or just neat tech in general, you'll likely find something here you enjoy.
+                        Feel free to star, fork, or get in touch if you'd like to work together or just chat about geeky stuff.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my best work and contributions</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- R6-Downloader -->
+                <div class="project-card" data-category="tools gaming">
+                    <div class="project-image">
+                        <img src="assets\R6Downloader+R6-Cheats.png" alt="R6-Downloader">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Wiilly-i-am/R6-Downloader" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">R6-Downloader</h3>
+                        <p class="project-description">
+                            Hot Fix of the R6SDownloader by @AKrisz2. Maintained by Wiilly-i-am,
+                            used for downloading Rainbow Six Siege content.
+                        </p>
+                        <div class="project-stats">
+                            <span class="project-stat">
+                                <i class="fas fa-star"></i>
+                                5 stars
+                            </span>
+                            <span class="project-stat">
+                                <i class="fas fa-code-branch"></i>
+                                Other
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Gaming</span>
+                            <span class="project-tag">Tools</span>
+                            <span class="project-tag">R6 Siege</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Old-R6-Cheats -->
+                <div class="project-card" data-category="gaming">
+                    <div class="project-image">
+                        <img src="assets\R6Downloader+R6-Cheats.png" alt="Old-R6-Cheats">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Wiilly-i-am/Old-R6-Cheats" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Old-R6-Cheats</h3>
+                        <p class="project-description">
+                            Hackerdoos for Operation Throwback. The biggest repository for R6 Siege cheats 
+                            and modifications for older game versions.
+                        </p>
+                        <div class="project-stats">
+                            <span class="project-stat">
+                                <i class="fas fa-star"></i>
+                                1 star
+                            </span>
+                            <span class="project-stat">
+                                <i class="fas fa-code-branch"></i>
+                                1 fork
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Gaming</span>
+                            <span class="project-tag">R6 Siege</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WillyNet -->
+                <div class="project-card" data-category="tools gaming">
+                    <div class="project-image">
+                        <img src="assets\WillyNet.png" alt="WillyNet">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Wiilly-i-am/WillyNet" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">WillyNet</h3>
+                        <p class="project-description">
+                            Lobby Browser like Plutonium for Rainbow Six Siege. Serverless and encrypted 
+                            networking solution for enhanced gaming experience.
+                        </p>
+                        <div class="project-stats">
+                            <span class="project-stat">
+                                <i class="fas fa-code"></i>
+                                C++
+                            </span>
+                            <span class="project-stat">
+                                <i class="fas fa-certificate"></i>
+                                CC BY 4.0
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Networking</span>
+                            <span class="project-tag">Gaming</span>
+                            <span class="project-tag">R6 Siege</span>
+                            <span class="project-tag">Encryption</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PowerSuite -->
+                <div class="project-card" data-category="tools security">
+                    <div class="project-image">
+                        <img src="assets\PowerSuiteBanner.png" alt="PowerSuite">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Wiilly-i-am/PowerSuite" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PowerSuite</h3>
+                        <p class="project-description">
+                            PowerShell Suite for Exploits and Scripts. A comprehensive collection of 
+                            PowerShell tools for system administration and security testing.
+                        </p>
+                        <div class="project-stats">
+                            <span class="project-stat">
+                                <i class="fas fa-terminal"></i>
+                                PowerShell
+                            </span>
+                            <span class="project-stat">
+                                <i class="fas fa-tools"></i>
+                                Admin Tools
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">PowerShell</span>
+                            <span class="project-tag">Security</span>
+                            <span class="project-tag">Admin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CYD-MachineStats -->
+                <div class="project-card" data-category="tools">
+                    <div class="project-image">
+                        <div style="background: linear-gradient(135deg, #6366f1, #8b5cf6); display: flex; align-items: center; justify-content: center; height: 200px; color: white; font-size: 24px; font-weight: 600; text-align: center;">
+                            Work In Progress
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Wiilly-i-am/CYD-MachineStats" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CYD-MachineStats</h3>
+                        <p class="project-description">
+                            CYD Temperature Viewer for your Computer. Real-time system monitoring 
+                            and temperature tracking application for hardware optimization. Currently under development.
+                        </p>
+                        <div class="project-stats">
+                            <span class="project-stat">
+                                <i class="fas fa-star"></i>
+                                1 star
+                            </span>
+                            <span class="project-stat">
+                                <i class="fas fa-thermometer-half"></i>
+                                WIP
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="project-tag">Monitoring</span>
+                            <span class="project-tag">Hardware</span>
+                            <span class="project-tag">System</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3 class="category-title">Languages & Scripting</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Bash/Shell</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript/HTML/CSS</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PowerShell</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">Cybersecurity & Hacking</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Offensive Security</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Reverse Engineering</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Hardware Hacking</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Network Engineering</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-visual">
+                    <div class="tech-stack">
+                        <h3 class="tech-title">Platforms & Tools</h3>
+                        <div class="tech-icons">
+                            <div class="tech-icon" data-tech="Python">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-icon" data-tech="Linux">
+                                <i class="fab fa-linux"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="tech-icon" data-tech="Windows">
+                                <i class="fab fa-windows"></i>
+                                <span>Windows</span>
+                            </div>
+                            <div class="tech-icon" data-tech="Git">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tech-icon" data-tech="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tech-icon" data-tech="JavaScript">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Wiilly-i-am. All rights reserved.</p>
+                    <p>God of stacks, but really just running the stack.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#hero" class="footer-link">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
