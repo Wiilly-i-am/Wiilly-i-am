@@ -19,6 +19,9 @@ My repos combine open-source tools, experiments, and practical projects built wi
 
 If you're interested in hacking, automation, hardware, networks, offensive security, or just neat tech in general, you'll likely find something here you enjoy. Feel free to star, fork, or get in touch if you'd like to work together or just chat about geeky stuff. 
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?logo=github&logoColor=white)](https://wiilly-i-am.github.io/Wiilly-i-am/)
+
+
 ## 🛠️ Tech Stack
 
 ### Languages
@@ -56,7 +59,8 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 
 ## 🌐 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Wiilly-i-am)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Wiilly-i-am)
+
 📍 Pacific Ocean — bring your own surfboard 🌊
 
 ---
@@ -68,4 +72,3 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 <!--  
 Feel free to fork, star, or reach out if you wanna collab or just chat tech!  
 -->
-
