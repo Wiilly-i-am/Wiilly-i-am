@@ -18,8 +18,13 @@ Offensive security is my thing: red teaming, exploit dev, and adversary research
 My repos combine open-source tools, experiments, and practical projects built with Python, Bash, PowerShell, C++, and JavaScript.
 
 If you're interested in hacking, automation, hardware, networks, offensive security, or just neat tech in general, you'll likely find something here you enjoy. Feel free to star, fork, or get in touch if you'd like to work together or just chat about geeky stuff. 
+## 📄 Pages
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?logo=github&logoColor=white)](https://wiilly-i-am.github.io/Wiilly-i-am/)
+[![WillyNull](https://img.shields.io/badge/WillyNull-000000?logo=github&logoColor=white)](https://wiilly-i-am.github.io/Wiilly-i-am/)
+[![WillyNet](https://img.shields.io/badge/WillyNet-6E56CF)](https://wiilly-i-am.github.io/Wiilly-i-am/willynet)
+[![DaemonSec](https://img.shields.io/badge/DaemonSec-0F766E)](https://wiilly-i-am.github.io/Wiilly-i-am/daemonsec)
+[![OffensiveSec](https://img.shields.io/badge/OffensiveSec-ED1C24)](https://wiilly-i-am.github.io/Wiilly-i-am/offensivesec)
+
 
 
 ## 🛠️ Tech Stack
@@ -57,10 +62,7 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 | R6Downloader | Utility to download OldR6 (deprecated)          | [R6Downloader](https://github.com/Wiilly-i-am/R6-Downloader) |
 | More in development! | Stay tuned…                                  | N/A                         |
 
-## 🌐 Connect With Me
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Wiilly-i-am)
-
+---
 📍 Pacific Ocean — bring your own surfboard 🌊
 
 ---
