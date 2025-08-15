@@ -74,3 +74,4 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 <!--  
 Feel free to fork, star, or reach out if you wanna collab or just chat tech!  
 -->
+<sub>P.S, Some github pages have easter eggs.</sub>
