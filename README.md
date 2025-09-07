@@ -2,7 +2,7 @@
 
 ---
 
-### 👋 Hello! I’m **willy null** (aka [Wiilly-i-am](https://github.com/Wiilly-i-am)), Cooking up WillyNet and DaemonSec
+### 👋 Hello! I’m **willy null** (aka [Wiilly-i-am](https://github.com/Wiilly-i-am)), Cooking up WillyNet and retr0ware
 
 ### 🌊 Currently riding waves somewhere deep in the Pacific Ocean (surfboard optional)
 
@@ -22,8 +22,6 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 
 [![WillyNull](https://img.shields.io/badge/WillyNull-000000?logo=github&logoColor=white)](https://wiilly-i-am.github.io/Wiilly-i-am/)
 [![WillyNet](https://img.shields.io/badge/WillyNet-6E56CF)](https://wiilly-i-am.github.io/Wiilly-i-am/willynet)
-[![DaemonSec](https://img.shields.io/badge/DaemonSec-0F766E)](https://wiilly-i-am.github.io/Wiilly-i-am/daemonsec)
-[![OffensiveSec](https://img.shields.io/badge/OffensiveSec-ED1C24)](https://wiilly-i-am.github.io/Wiilly-i-am/offensivesec)
 
 
 
