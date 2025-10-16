@@ -1,23 +1,7 @@
-# 🧙‍♂️ willy null
+# 🧙‍♂️ yeahhh boyyy
 
 ---
-
-### 👋 Hello! I’m **willy null** (aka [Wiilly-i-am](https://github.com/Wiilly-i-am)), Cooking up WillyNet and retr0ware
-
-### 🌊 Currently riding waves somewhere deep in the Pacific Ocean (surfboard optional)
-
-## 🚀 About Me
-I break things, build things, and automate whatever I can.
-I'm fixated on understanding how things really work under the hood.
-
-You'll usually find me tinkering with cybersecurity gadgets, hardware hacking, reverse engineering, or scripting to make life easier.
-I love pushing technology to its limits: code, electronics, networks, you get the idea.
-
-Offensive security is my thing: red teaming, exploit dev, and adversary research occupy my days.
-
-My repos combine open-source tools, experiments, and practical projects built with Python, Bash, PowerShell, C++, and JavaScript.
-
-If you're interested in hacking, automation, hardware, networks, offensive security, or just neat tech in general, you'll likely find something here you enjoy. Feel free to star, fork, or get in touch if you'd like to work together or just chat about geeky stuff. 
+ 
 ## 📄 Pages
 
 [![WillyNull](https://img.shields.io/badge/WillyNull-000000?logo=github&logoColor=white)](https://wiilly-i-am.github.io/Wiilly-i-am/)
@@ -51,25 +35,9 @@ If you're interested in hacking, automation, hardware, networks, offensive secur
 
 
 
-## 📦 Featured Projects
-
-| Project      | Description                                      | Link                        |
-| ------------ | ------------------------------------------------ | --------------------------- |
-| WillyNet     | Serverless, encrypted server browser for OldR6 (WIP) | [WillyNet](https://github.com/Wiilly-i-am/WillyNet) |
-| PowerSuite   | PowerShell exploit utility                       | [PowerSuite](https://github.com/Wiilly-i-am/PowerSuite) |
-| R6Downloader | Utility to download OldR6 (deprecated)          | [R6Downloader](https://github.com/Wiilly-i-am/R6-Downloader) |
-| More in development! | Stay tuned…                                  | N/A                         |
-
----
-📍 Pacific Ocean — bring your own surfboard 🌊
-
 ---
 
 > *“I like to say I'm the God of stacks, but really I just run the stack.”*  
 
 ---
 
-<!--  
-Feel free to fork, star, or reach out if you wanna collab or just chat tech!  
--->
-<sub>P.S, Some github pages have easter eggs.</sub>
